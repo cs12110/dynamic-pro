@@ -1,0 +1,8 @@
+**/target/**
+**/*.iml
+**/*.log
+**/.seeting/**
+**/.idea/**
+.DS_Store
+
+
