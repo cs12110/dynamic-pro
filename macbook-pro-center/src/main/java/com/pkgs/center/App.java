@@ -15,8 +15,15 @@ import com.pkgs.api.util.ClassLoaderUtil;
 public class App {
 
     public static void main(String[] args) {
+        loadMysqlDriver();
+
         loadMod1();
         loadMod2();
+    }
+
+    private static void loadMysqlDriver() {
+        String mysqlDriverJarPath = "/opt/soft/maven/repos/mysql/mysql-connector-java/5.1.46/mysql-connector-java-5.1.46.jar";
+        ClassLoaderUtil.addJar(mysqlDriverJarPath);
     }
 
     /**
