@@ -32,7 +32,7 @@ public class App {
     private static void loadMod1() {
 
         // 模块1jar所在位置
-        String mod1 = "/opt/projects/java/macbook-pro/macbook-pro-mod1/target/macbook-pro-mod1-1.0-SNAPSHOT.jar";
+        String mod1 = "/opt/projects/java/dynamic-pro/dynamic-pro-mod1/target/dynamic-pro-mod1-1.0-SNAPSHOT.jar";
         String mod1ServiceImpl = "com.pkgs.mod1.Mod1ApiServiceImpl";
 
         // 实例化
@@ -47,7 +47,7 @@ public class App {
     private static void loadMod2() {
 
         // 模块jar所在位置
-        String mod2 = "/opt/projects/java/macbook-pro/macbook-pro-mod2/target/macbook-pro-mod2-1.0-SNAPSHOT.jar";
+        String mod2 = "/opt/projects/java/dynamic-pro/dynamic-pro-mod2/target/dynamic-pro-mod2-1.0-SNAPSHOT.jar";
         String mod2ServiceImpl = "com.pkgs.mod2.Mod2ApiServiceImpl";
 
         // 实例化

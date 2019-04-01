@@ -64,7 +64,7 @@ public class ClassLoaderUtil {
         void add(String jarFilePath) {
             File file = new File(jarFilePath);
             if (!file.exists()) {
-                throw new IllegalArgumentException("The path of jar never exists");
+                throw new IllegalArgumentException("The path of jar never exists:" + jarFilePath);
             }
 
             try {
