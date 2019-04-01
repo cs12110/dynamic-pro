@@ -4,15 +4,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>macbook-pro</groupId>
-    <artifactId>macbook-pro</artifactId>
+    <groupId>dynamic-pro</groupId>
+    <artifactId>dynamic-pro</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>macbook-pro-api</module>
-        <module>macbook-pro-mod1</module>
-        <module>macbook-pro-mod2</module>
-        <module>macbook-pro-center</module>
+        <module>dynamic-pro-api</module>
+        <module>dynamic-pro-mod1</module>
+        <module>dynamic-pro-mod2</module>
+        <module>dynamic-pro-center</module>
     </modules>
 
 
